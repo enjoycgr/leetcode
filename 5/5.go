@@ -20,7 +20,7 @@ package main
 //  初始化：单个字符一定是回文串，所以dp[i][i] = true
 
 //4.计算顺序
-//	f[0],f[1],f[2].....,f[11]
+//	dp[0][0],dp[0][1],dp[0][2]...dp[1][1],dp[1][2]...dp[i][j]
 
 func longestPalindrome(s string) string {
 	var b = []byte(s)
@@ -28,13 +28,13 @@ func longestPalindrome(s string) string {
 	var maxLen = 0
 	var start = 0
 
+	if length == 1 || length == 0 {
+		return s
+	}
+
 	var dp = make([][]bool, length)
 	for d, _ := range dp {
 		dp[d] = make([]bool, length)
-	}
-
-	if length == 1 || length == 0 {
-		return s
 	}
 
 	for j := 0; j < length; j++ {

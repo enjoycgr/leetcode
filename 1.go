@@ -11,19 +11,6 @@
 
 package main
 
-import (
-	"fmt"
-)
-
-func main() {
-	nums := []int{1, 5, 4, 2, 6, 7}
-	target := 11
-
-	result := twoSum(nums, target)
-
-	fmt.Print(result)
-}
-
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
 	var dif int

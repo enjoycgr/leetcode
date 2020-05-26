@@ -18,15 +18,7 @@
 //     请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
 package main
 
-import (
-	"fmt"
-)
-
-func main() {
-	l := lengthOfLongestSubstring("dvdf")
-	fmt.Println(l)
-}
-
+// 滑动窗口
 func lengthOfLongestSubstring(s string) int {
 	if len(s) == 0 {
 		return 0

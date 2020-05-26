@@ -11,6 +11,8 @@
 
 package main
 
+import "fmt"
+
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
 	var dif int
@@ -22,4 +24,8 @@ func twoSum(nums []int, target int) []int {
 		m[v] = k
 	}
 	return []int{}
+}
+
+func main() {
+	fmt.Println(twoSum([]int{2, 7, 11, 15}, 9))
 }

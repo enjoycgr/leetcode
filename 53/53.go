@@ -12,8 +12,7 @@ import (
 )
 
 // 1.转移方程dp[i]表示前i个最大的子序列和
-// 当nums[i] > 0, dp[i] = dp[i - 1] + nums[i],
-// 当nums[i] < 0, dp[i] = dp[i-1]
+// dp[i] = max(dp[i - 1] + nums[i], nums[i])
 // 2.边界: i = 0
 // 4.计算顺序，dp[0],dp[1]...dp[length]
 

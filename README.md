@@ -15,8 +15,9 @@
 |94|[二叉树的中序遍历](https://github.com/enjoycgr/leetcode/blob/master/91/91.go)|二叉树|简单
 |100|[相同的树](https://github.com/enjoycgr/leetcode/blob/master/100/100.go)|二叉树|简单
 |101|[对称二叉树](https://github.com/enjoycgr/leetcode/blob/master/101/101.go)|二叉树|简单
-|101|[二叉树的层序遍历](https://github.com/enjoycgr/leetcode/blob/master/102/102.go)|深度优先搜索|简单
+|102|[二叉树的层序遍历](https://github.com/enjoycgr/leetcode/blob/master/102/102.go)|深度优先搜索|中等
 |104|[二叉树的最大深度](https://github.com/enjoycgr/leetcode/blob/master/104/104.go)|二叉树|简单
+|107|[二叉树的层序遍历II](https://github.com/enjoycgr/leetcode/blob/master/107/107.go)|深度优先搜索|简单
 |108|[将有序数组转换为二叉搜索树](https://github.com/enjoycgr/leetcode/blob/master/108/108.go)|二叉树|简单
 |110|[平衡二叉树](https://github.com/enjoycgr/leetcode/blob/master/110/110.go)|二叉树|简单
 |111|[二叉树的最小深度](https://github.com/enjoycgr/leetcode/blob/master/111/111.go)|二叉树|简单

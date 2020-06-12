@@ -28,17 +28,22 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-var help *TreeNode
+var last *TreeNode
 
 func flatten(root *TreeNode) {
+	last = nil
+	help(root)
+}
+
+func help(root *TreeNode) {
 	if root == nil {
 		return
 	}
 
-	flatten(root.Right)
-	flatten(root.Left)
+	help(root.Right)
+	help(root.Left)
 
-	root.Right = help
+	root.Right = last
 	root.Left = nil
-	help = root
+	last = root
 }

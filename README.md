@@ -12,10 +12,12 @@
 |64|[最小路径和](https://github.com/enjoycgr/leetcode/blob/master/64/64.go)|动态规划|中等
 |70|[爬楼梯](https://github.com/enjoycgr/leetcode/blob/master/70/70.go)|动态规划|简单
 |91|[最小路径和](https://github.com/enjoycgr/leetcode/blob/master/91/91.go)|动态规划|中等
-|94|[二叉树的中序遍历](https://github.com/enjoycgr/leetcode/blob/master/91/91.go)|二叉树|简单
+|94|[不同的搜索二叉树](https://github.com/enjoycgr/leetcode/blob/master/94/94.go)|动态规划|中等
+|96|[验证二叉搜索树](https://github.com/enjoycgr/leetcode/blob/master/98/98.go)|二叉搜索树|中等
+|98|[验证二叉搜索树](https://github.com/enjoycgr/leetcode/blob/master/98/98.go)|二叉搜索树|中等
 |100|[相同的树](https://github.com/enjoycgr/leetcode/blob/master/100/100.go)|二叉树|简单
 |101|[对称二叉树](https://github.com/enjoycgr/leetcode/blob/master/101/101.go)|二叉树|简单
-|101|[二叉树的层序遍历](https://github.com/enjoycgr/leetcode/blob/master/102/102.go)|深度优先搜索|简单
+|101|[二叉树的层序遍历](https://github.com/enjoycgr/leetcode/blob/master/102/102.go)|深度优先搜索|中等
 |104|[二叉树的最大深度](https://github.com/enjoycgr/leetcode/blob/master/104/104.go)|二叉树|简单
 |108|[将有序数组转换为二叉搜索树](https://github.com/enjoycgr/leetcode/blob/master/108/108.go)|二叉树|简单
 |110|[平衡二叉树](https://github.com/enjoycgr/leetcode/blob/master/110/110.go)|二叉树|简单
@@ -25,6 +27,8 @@
 |120|[动态规划](https://github.com/enjoycgr/leetcode/blob/master/120/120.go)|动态规划|简单
 |169|[多数元素](https://github.com/enjoycgr/leetcode/blob/master/169/169.go)|分治法|简单
 |226|[翻转二叉树](https://github.com/enjoycgr/leetcode/blob/master/226/226.go)|二叉树|简单
+|230|[二叉搜索树中第K小的元素](https://github.com/enjoycgr/leetcode/blob/master/230/230.go)|二叉树|中等
+|236|[二叉树的最近公共祖先](https://github.com/enjoycgr/leetcode/blob/master/236/236.go)|二叉树|中等
 |257|[二叉树所有路径](https://github.com/enjoycgr/leetcode/blob/master/257/257.go)|二叉树|简单
 |322|[零钱兑换](https://github.com/enjoycgr/leetcode/blob/master/322/322.go)|动态规划|中等
 |404|[左叶子之和](https://github.com/enjoycgr/leetcode/blob/master/404/404.go)|二叉树|简单

@@ -26,7 +26,8 @@
 |112|[路径总和](https://github.com/enjoycgr/leetcode/blob/master/112/112.go)|动态规划|简单
 |113|[路径总和II](https://github.com/enjoycgr/leetcode/blob/master/113/113.go)|动态规划|中等
 |114|[二叉树展开为链表](https://github.com/enjoycgr/leetcode/blob/master/114/114.go)|二叉树|中等
-|120|[动态规划](https://github.com/enjoycgr/leetcode/blob/master/120/120.go)|动态规划|简单
+|120|[三角形最小路径和  ](https://github.com/enjoycgr/leetcode/blob/master/120/120.go)|动态规划|简单
+|121|[买卖股票的最佳时机](https://github.com/enjoycgr/leetcode/blob/master/121/121.go)|遍历|简单
 |144|[二叉树的先序遍历](https://github.com/enjoycgr/leetcode/blob/master/144/144.go)|二叉树|中等
 |145|[二叉树的后序遍历](https://github.com/enjoycgr/leetcode/blob/master/145/145.go)|二叉树|困难
 |169|[多数元素](https://github.com/enjoycgr/leetcode/blob/master/169/169.go)|分治法|简单
@@ -38,9 +39,6 @@
 |322|[零钱兑换](https://github.com/enjoycgr/leetcode/blob/master/322/322.go)|动态规划|中等
 |404|[左叶子之和](https://github.com/enjoycgr/leetcode/blob/master/404/404.go)|二叉树|简单
 |647|[路径总和](https://github.com/enjoycgr/leetcode/blob/master/647/647.go)|动态规划|中等
-
-
-
 
 
 

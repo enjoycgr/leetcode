@@ -4,6 +4,8 @@
 |2|[两数相加](https://github.com/enjoycgr/leetcode/blob/master/2/2.go)| |中等
 |3|[无重复最长子串](https://github.com/enjoycgr/leetcode/blob/master/3/3.go)|滑动窗口|中等
 |5|[最长回文子串](https://github.com/enjoycgr/leetcode/blob/master/5/5.go)|动态规划|中等
+|7|[整数翻转](https://github.com/enjoycgr/leetcode/blob/master/7/7.go)|数字处理|简单
+|9|[回文整数](https://github.com/enjoycgr/leetcode/blob/master/9/9.go)|数字处理|简单
 |15|[三数之和](https://github.com/enjoycgr/leetcode/blob/master/15/15.go)|三指针|中等
 |17|[电话号码的字母组合](https://github.com/enjoycgr/leetcode/blob/master/3/3.go)|动态规划|中等
 |53|[最大子序和](https://github.com/enjoycgr/leetcode/blob/master/53/53.go)|动态规划|简单

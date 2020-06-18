@@ -10,6 +10,7 @@
 |17|[电话号码的字母组合](https://github.com/enjoycgr/leetcode/blob/master/3/3.go)|动态规划|中等
 |19|[删除链表的倒数第N个节点](https://github.com/enjoycgr/leetcode/blob/master/19/19.go)|链表|中等
 |21|[合并两个有序链表](https://github.com/enjoycgr/leetcode/blob/master/21/21.go)|链表|简单
+|23|[合并多个有序链表](https://github.com/enjoycgr/leetcode/blob/master/23/23.go)|链表，分治|困难
 |53|[最大子序和](https://github.com/enjoycgr/leetcode/blob/master/53/53.go)|动态规划|简单
 |62|[不同路径](https://github.com/enjoycgr/leetcode/blob/master/62/62.go)|动态规划|中等
 |63|[不同路径II](https://github.com/enjoycgr/leetcode/blob/master/63/63.go)|动态规划|中等

@@ -8,6 +8,8 @@
 |9|[回文整数](https://github.com/enjoycgr/leetcode/blob/master/9/9.go)|数字处理|简单
 |15|[三数之和](https://github.com/enjoycgr/leetcode/blob/master/15/15.go)|三指针|中等
 |17|[电话号码的字母组合](https://github.com/enjoycgr/leetcode/blob/master/3/3.go)|动态规划|中等
+|19|[删除链表的倒数第N个节点](https://github.com/enjoycgr/leetcode/blob/master/19/19.go)|链表|中等
+|21|[合并两个有序链表](https://github.com/enjoycgr/leetcode/blob/master/21/21.go)|链表|简单
 |53|[最大子序和](https://github.com/enjoycgr/leetcode/blob/master/53/53.go)|动态规划|简单
 |62|[不同路径](https://github.com/enjoycgr/leetcode/blob/master/62/62.go)|动态规划|中等
 |63|[不同路径II](https://github.com/enjoycgr/leetcode/blob/master/63/63.go)|动态规划|中等

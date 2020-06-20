@@ -15,7 +15,7 @@
 |62|[不同路径](https://github.com/enjoycgr/leetcode/blob/master/62/62.go)|动态规划|中等
 |63|[不同路径II](https://github.com/enjoycgr/leetcode/blob/master/63/63.go)|动态规划|中等
 |64|[最小路径和](https://github.com/enjoycgr/leetcode/blob/master/64/64.go)|动态规划|中等
-|70|[爬楼梯](https://github.com/enjoycgr/leetcode/blob/master/70/70.go)|动态规划|简单 
+|70|[爬楼梯](https://github.com/enjoycgr/leetcode/blob/master/70/70.go)|动态规划|简单
 |82|[删除排序链表中的重复元素II](https://github.com/enjoycgr/leetcode/blob/master/82/82.go)|链表|中等
 |83|[删除排序链表中的重复元素](https://github.com/enjoycgr/leetcode/blob/master/83/83.go)|链表|简单
 |91|[最小路径和](https://github.com/enjoycgr/leetcode/blob/master/91/91.go)|动态规划|中等
@@ -37,6 +37,7 @@
 |121|[买卖股票的最佳时机](https://github.com/enjoycgr/leetcode/blob/master/121/121.go)|遍历|简单
 |144|[二叉树的先序遍历](https://github.com/enjoycgr/leetcode/blob/master/144/144.go)|二叉树|中等
 |145|[二叉树的后序遍历](https://github.com/enjoycgr/leetcode/blob/master/145/145.go)|二叉树|困难
+|148|[排序链表](https://github.com/enjoycgr/leetcode/blob/master/148/148.go)|链表|中等
 |169|[多数元素](https://github.com/enjoycgr/leetcode/blob/master/169/169.go)|分治法|简单
 |199|[二叉树的右视图](https://github.com/enjoycgr/leetcode/blob/master/199/199.go)|二叉树|中等
 |222|[完全二叉树的节点个数](https://github.com/enjoycgr/leetcode/blob/master/222/222.go)|二叉树|中等

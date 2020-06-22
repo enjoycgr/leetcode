@@ -18,6 +18,7 @@
 |70|[爬楼梯](https://github.com/enjoycgr/leetcode/blob/master/70/70.go)|动态规划|简单
 |82|[删除排序链表中的重复元素II](https://github.com/enjoycgr/leetcode/blob/master/82/82.go)|链表|中等
 |83|[删除排序链表中的重复元素](https://github.com/enjoycgr/leetcode/blob/master/83/83.go)|链表|简单
+|86|[分隔链表](https://github.com/enjoycgr/leetcode/blob/master/86/86.go)|链表|中等
 |91|[最小路径和](https://github.com/enjoycgr/leetcode/blob/master/91/91.go)|动态规划|中等
 |94|[不同的搜索二叉树](https://github.com/enjoycgr/leetcode/blob/master/94/94.go)|动态规划|中等
 |96|[验证二叉搜索树](https://github.com/enjoycgr/leetcode/blob/master/98/98.go)|二叉搜索树|中等

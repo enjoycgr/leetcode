@@ -24,12 +24,11 @@ func swapPairs(head *ListNode) *ListNode {
 		return head
 	}
 
+	head.Next.Next = swapPairs(head.Next.Next)
+
 	help := head.Next
 	head.Next = help.Next
 	help.Next = head
-
-
-	head.Next.Next = swapPairs(head.Next.Next)
 
 	return help
 }

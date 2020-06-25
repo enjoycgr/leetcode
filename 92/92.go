@@ -18,21 +18,27 @@ type ListNode struct {
 }
 
 func reverseBetween(head *ListNode, m int, n int) *ListNode {
-	dummy, first, second := head, head, head
-	i := 1
+	dummy := &ListNode{0, head}
+	// 前后双指针
+	// second指向第m-1个， first指向第n个
+	first, second := dummy, dummy
+	i := 0
 	for i < n {
-		if i > n - m + 1 {
+		if i > n - m {
 			second = second.Next
 		}
 		first = first.Next
 		i++
 	}
+	// 指向n+1个
 	next := first.Next
+	// 指向第m个
 	last := second.Next
-	second.Next = turn(second.Next, next)
+	// 反转链表
+	second.Next = turn(last, next)
 	last.Next = next
 
-	return dummy
+	return dummy.Next
 }
 
 func turn(head, stop *ListNode) *ListNode {
@@ -57,7 +63,10 @@ func main() {
 		head = head.Next
 	}
 
-	a := reverseBetween(dummy.Next, 2, 4)
+	reverseBetween(dummy.Next, 1, 5)
 
-	fmt.Println(a)
+	for dummy != nil {
+		fmt.Println(dummy)
+		dummy = dummy.Next
+	}
 }

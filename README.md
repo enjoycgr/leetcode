@@ -12,6 +12,7 @@
 |21|[合并两个有序链表](https://github.com/enjoycgr/leetcode/blob/master/21/21.go)|链表|简单
 |23|[合并多个有序链表](https://github.com/enjoycgr/leetcode/blob/master/23/23.go)|链表，分治|困难
 |53|[最大子序和](https://github.com/enjoycgr/leetcode/blob/master/53/53.go)|动态规划|简单
+|61|[旋转链表](https://github.com/enjoycgr/leetcode/blob/master/61/61.go)|链表|中等
 |62|[不同路径](https://github.com/enjoycgr/leetcode/blob/master/62/62.go)|动态规划|中等
 |63|[不同路径II](https://github.com/enjoycgr/leetcode/blob/master/63/63.go)|动态规划|中等
 |64|[最小路径和](https://github.com/enjoycgr/leetcode/blob/master/64/64.go)|动态规划|中等
@@ -20,6 +21,7 @@
 |83|[删除排序链表中的重复元素](https://github.com/enjoycgr/leetcode/blob/master/83/83.go)|链表|简单
 |86|[分隔链表](https://github.com/enjoycgr/leetcode/blob/master/86/86.go)|链表|中等
 |91|[最小路径和](https://github.com/enjoycgr/leetcode/blob/master/91/91.go)|动态规划|中等
+|92|[反转链表II](https://github.com/enjoycgr/leetcode/blob/master/92/92.go)|链表|中等
 |94|[不同的搜索二叉树](https://github.com/enjoycgr/leetcode/blob/master/94/94.go)|动态规划|中等
 |96|[验证二叉搜索树](https://github.com/enjoycgr/leetcode/blob/master/98/98.go)|二叉搜索树|中等
 |98|[验证二叉搜索树](https://github.com/enjoycgr/leetcode/blob/master/98/98.go)|二叉搜索树|中等

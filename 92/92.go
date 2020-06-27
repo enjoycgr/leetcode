@@ -10,8 +10,6 @@
 
 package main
 
-import "fmt"
-
 type ListNode struct {
 	Val int
 	Next *ListNode
@@ -52,21 +50,4 @@ func turn(head, stop *ListNode) *ListNode {
 	head.Next = nil
 
 	return p
-}
-
-func main() {
-	s := []int{1, 2, 3, 4, 5}
-	head := new(ListNode)
-	dummy := head
-	for _, v := range s {
-		head.Next = &ListNode{v, nil}
-		head = head.Next
-	}
-
-	reverseBetween(dummy.Next, 1, 5)
-
-	for dummy != nil {
-		fmt.Println(dummy)
-		dummy = dummy.Next
-	}
 }

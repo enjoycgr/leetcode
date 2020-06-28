@@ -38,6 +38,7 @@
 |114|[二叉树展开为链表](https://github.com/enjoycgr/leetcode/blob/master/114/114.go)|二叉树|中等
 |120|[三角形最小路径和](https://github.com/enjoycgr/leetcode/blob/master/120/120.go)|动态规划|简单
 |121|[买卖股票的最佳时机](https://github.com/enjoycgr/leetcode/blob/master/121/121.go)|遍历|简单
+|139|[单词拆分](https://github.com/enjoycgr/leetcode/blob/master/139/139.go)|动态规划|中等
 |144|[二叉树的先序遍历](https://github.com/enjoycgr/leetcode/blob/master/144/144.go)|二叉树|中等
 |145|[二叉树的后序遍历](https://github.com/enjoycgr/leetcode/blob/master/145/145.go)|二叉树|困难
 |148|[排序链表](https://github.com/enjoycgr/leetcode/blob/master/148/148.go)|链表|中等

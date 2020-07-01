@@ -19,13 +19,14 @@
 package main
 
 func findDuplicate(nums []int) int {
-
-}
-
-func help(l, r , num int, nums []int) bool {
-	if l == r {
-		if num == nums[l]
+	for i := 0; i < len(nums); i++ {
+		for j := i + 1; j < len(nums); j++ {
+			if nums[j] == nums[i] {
+				return nums[j]
+			}
+		}
 	}
+	return 0
 }
 
 func main() {

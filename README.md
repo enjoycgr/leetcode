@@ -11,6 +11,7 @@
 |19|[删除链表的倒数第N个节点](https://github.com/enjoycgr/leetcode/blob/master/19/19.go)|链表|中等
 |21|[合并两个有序链表](https://github.com/enjoycgr/leetcode/blob/master/21/21.go)|链表|简单
 |23|[合并多个有序链表](https://github.com/enjoycgr/leetcode/blob/master/23/23.go)|链表，分治|困难
+|46|[全排列](https://github.com/enjoycgr/leetcode/blob/master/46/46.go)|回溯分|中等
 |53|[最大子序和](https://github.com/enjoycgr/leetcode/blob/master/53/53.go)|动态规划|简单
 |55|[跳跃游戏](https://github.com/enjoycgr/leetcode/blob/master/55/55.go)|动态规划|中等
 |61|[旋转链表](https://github.com/enjoycgr/leetcode/blob/master/61/61.go)|链表|中等

@@ -15,8 +15,6 @@
 
 package main
 
-import "fmt"
-
 var res [][]int
 
 func permute(nums []int) [][]int {
@@ -35,22 +33,15 @@ func help(used []bool, nums, output []int) {
 	}
 
 	for i := 0; i < len(nums); i++ {
+		// 选择路径
 		if !used[i] {
+			// 添加
 			used[i] = true
 			output = append(output, nums[i])
 			help(used, nums, output)
+			// 回溯
 			output = output[0:len(output) - 1]
 			used[i] = false
 		}
 	}
-}
-
-func main() {
-	a := []int{1}
-	test(a)
-	fmt.Println(a)
-}
-
-func test(a []int) {
-	a = []int{2}
 }

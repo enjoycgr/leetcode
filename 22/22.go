@@ -13,38 +13,44 @@
 
 package main
 
+import "fmt"
+
 var res []string
 
 func generateParenthesis(n int) []string {
-	res := make([]string, 0)
+	res = make([]string, 0)
 	help(n, 0, 0, []byte{})
 	return res
 }
 
 func help(n, l, r int, output []byte) {
+	// 当左右括号加起来等于n * 2 返回
 	if l + r == n * 2 {
 		tmp := make([]byte, len(output))
 		copy(tmp, output)
-		res = append(res, string(tmp))
+		res = append(res, string(output))
 		return
 	}
 
-	for i := 0; i < n * 2; i++ {
-		if l >= r && l < 3{
-			l++
-			output = append(output, '(')
-			help(n, l, r, output)
-			l--
-		} else if r < 3 {
-			output = append(output, ')')
-			r++
-			help(n, l, r, output)
-			r--
-		}
+	// 左括号 < n 继续添加
+	if l < n {
+		l++
+		output = append(output, '(')
+		help(n, l, r, output)
+		l--
+		output = output[:len(output) - 1]
+	}
+
+	// 右括号 只要少于左括号就可以添加
+	if r < l {
+		output = append(output, ')')
+		r++
+		help(n, l, r, output)
+		r--
 		output = output[:len(output) - 1]
 	}
 }
 
 func main() {
-	generateParenthesis(3)
+	fmt.Println(generateParenthesis(3))
 }

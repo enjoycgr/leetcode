@@ -14,27 +14,45 @@ package main
 
 var res [][]int
 
-func permuteUnique(nums []int) [][]int {
-	res = make([][]int, 0)
-	used := make(map[int][]int)
-	for i := 0; i < len(nums); i++ {
-		used[nums[i]]++
-	}
-	help(nums, []int{}, []int{})
+func permute(nums []int) [][]int {
+	res = [][]int{} // 最终结果集
+	used := make([]bool, len(nums)) // 标记数字是否被使用过
+	help(used, nums, []int{})
+	return res
 }
 
-func help(nums, output, used []int) {
-	if len(output) == len(nums) {
-
+func help(used []bool, nums, output []int) {
+	if len(nums) == len(output) {
+		tmp := make([]int, len(nums))
+		copy(tmp, output)
+		res = append(res, tmp)
+		return
 	}
 
 	for i := 0; i < len(nums); i++ {
-		if used[nums[i]] == 0 {
-			output = append(output, )
+		// 选择路径
+		if i > 0 && nums[i] == nums[i - 1] && !used[i - 1] {
+			continue
+		}
+		if !used[i] {
+			current := nums[i]
+			// 添加
+			used[i] = true
+			output = append(output, nums[i])
+			help(used, nums, output)
+			// 回溯
+			output = output[:len(output) - 1]
+			used[i] = false
+
+			for j := i + 1; j < len(nums); j++ {
+				if nums[j] == current {
+					i++
+				} else {
+					break
+				}
+			}
 		}
 	}
 }
 
-func main() {
-	
-}
+

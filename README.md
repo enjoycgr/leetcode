@@ -45,6 +45,8 @@
 |144|[二叉树的先序遍历](https://github.com/enjoycgr/leetcode/blob/master/144/144.go)|二叉树|中等
 |145|[二叉树的后序遍历](https://github.com/enjoycgr/leetcode/blob/master/145/145.go)|二叉树|困难
 |148|[排序链表](https://github.com/enjoycgr/leetcode/blob/master/148/148.go)|链表|中等
+|152|[乘积最大子数组](https://github.com/enjoycgr/leetcode/blob/master/152/152.go)|动态规划|中等
+|167|[两数之和 II - 输入有序数组](https://github.com/enjoycgr/leetcode/blob/master/167/167.go)|递归，双指针|简单
 |169|[多数元素](https://github.com/enjoycgr/leetcode/blob/master/169/169.go)|分治法|简单
 |199|[二叉树的右视图](https://github.com/enjoycgr/leetcode/blob/master/199/199.go)|二叉树|中等
 |203|[移除链表元素](https://github.com/enjoycgr/leetcode/blob/master/203/203.go)|链表|简单

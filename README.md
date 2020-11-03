@@ -60,6 +60,7 @@
 |237|[删除链表中的节点](https://github.com/enjoycgr/leetcode/blob/master/237/237.go)|链表|简单
 |257|[二叉树所有路径](https://github.com/enjoycgr/leetcode/blob/master/257/257.go)|二叉树|简单
 |270|[最接近的二叉搜索树值](https://github.com/enjoycgr/leetcode/blob/master/270/270.go)|二叉树|简单
+|270|[完全平方数](https://github.com/enjoycgr/leetcode/blob/master/279/279.go)|动态规划|中等
 |287|[寻找重复数](https://github.com/enjoycgr/leetcode/blob/master/287/287.go)|循环|中等
 |322|[零钱兑换](https://github.com/enjoycgr/leetcode/blob/master/322/322.go)|动态规划|中等
 |404|[左叶子之和](https://github.com/enjoycgr/leetcode/blob/master/404/404.go)|二叉树|简单

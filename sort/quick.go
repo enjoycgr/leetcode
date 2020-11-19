@@ -1,11 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	fmt.Println(quick([]int{2, 5, 18, 99, 1, 23, 1, 3}, 0, 7))
-}
-
 func quick(nums []int, left, right int) []int {
 	mid := qsort(nums, left, right)
 

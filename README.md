@@ -6,14 +6,17 @@
 |5|[最长回文子串](https://github.com/enjoycgr/leetcode/blob/master/5/5.go)|动态规划|中等
 |7|[整数翻转](https://github.com/enjoycgr/leetcode/blob/master/7/7.go)|数字处理|简单
 |9|[回文整数](https://github.com/enjoycgr/leetcode/blob/master/9/9.go)|数字处理|简单
+|14|[最长公共前缀](https://github.com/enjoycgr/leetcode/blob/master/14/14.go)|不知道|简单
 |15|[三数之和](https://github.com/enjoycgr/leetcode/blob/master/15/15.go)|三指针|中等
 |17|[电话号码的字母组合](https://github.com/enjoycgr/leetcode/blob/master/3/3.go)|动态规划|中等
 |19|[删除链表的倒数第N个节点](https://github.com/enjoycgr/leetcode/blob/master/19/19.go)|链表|中等
+|20|[有效的括号](https://github.com/enjoycgr/leetcode/blob/master/20/20.go)|不知道|简单
 |21|[合并两个有序链表](https://github.com/enjoycgr/leetcode/blob/master/21/21.go)|链表|简单
 |22|[括号生成](https://github.com/enjoycgr/leetcode/blob/master/22/22.go)|回溯法|中等
 |23|[合并多个有序链表](https://github.com/enjoycgr/leetcode/blob/master/23/23.go)|链表，分治|困难
 |27|[合并多个有序链表](https://github.com/enjoycgr/leetcode/blob/master/27/27.go)|双指针|简单
 |28|[实现 strStr()](https://github.com/enjoycgr/leetcode/blob/master/28/28.go)|不知道|简单
+|35|[搜索插入位置](https://github.com/enjoycgr/leetcode/blob/master/35/35.go)|不知道|简单
 |46|[全排列](https://github.com/enjoycgr/leetcode/blob/master/46/46.go)|回溯法|中等
 |53|[最大子序和](https://github.com/enjoycgr/leetcode/blob/master/53/53.go)|动态规划|简单
 |55|[跳跃游戏](https://github.com/enjoycgr/leetcode/blob/master/55/55.go)|动态规划|中等
